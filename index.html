@@ -18,12 +18,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <style>
-        *{
-          font-family: "Geist", sans-serif;  
+        body{
+          font-family: "Geist", sans-serif; 
+          background-color: #F8FAFC;
+          
         }
+       
     </style>
 </head>
 <body>
+    <header class="w-[70%] mx-auto bg-[#F8FAFC] mt-12">
+        <h1 class="text-6xl font-bold text-[#002C5C]">Job Application Tracker</h1>
+        <div class="header-section grid grid-cols-3 gap-4 mt-5">
+
+            <div class="border border-white bg-white rounded-md px-5 py-2">
+                <p class="text-[14] font-medium">Total</p>
+                <p id="total">0</p>
+            </div>
+            <div class="border border-white bg-white rounded-md px-5 py-2">
+                <p class="text-[14] font-medium"></p>Interview</p>
+                <p id="interviewCount" class="text-[#10B981]">0</p>
+            </div>
+            <div class="border border-white bg-white rounded-md px-5 py-2">
+                <p class="text-[14] font-medium"></p>Rejected</p>
+                <p id="rejwectedCount" class="text-bold text-[#EF4444]">0</p>
+            </div>
+        </div>
+    </header>
+    <hr class="my-5 w-[70%] mx-auto text-base-300">
+
     
 </body>
 </html>
