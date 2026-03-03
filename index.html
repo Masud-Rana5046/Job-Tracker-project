@@ -62,9 +62,22 @@
         <!-- button section -->
          <div class="mb-4 ">
             
-            <button class="bg-blue-500 px-5 py-2 text-[12px] font-medium rounded-md" id="all-filtere-btn">All</button>
-          <button class="bg-white px-5 py-2 text-[12px] font-medium rounded-md" id="all-filtere-btn">Interview</button>
-           <button class="bg-white px-5 py-2 text-[12px] font-medium rounded-md" id="all-filtere-btn">Rejected</button>
+            <button 
+            id="tab-all"
+            onclick="switchTab('all')"
+            class=" px-5 py-1.5 rounded-full border-2 text-sm font-medium cursor-pointer transition-all duration-200" id="all-filtere-btn">All
+
+            </button>
+
+          <button 
+          id="tab-interview"
+          onclick="switchTab('interview')"
+          class="bg-white px-5 py-2 text-[12px] font-medium rounded-md" id="all-filtere-btn">Interview</button>
+           
+          <button 
+          id="tab-rejected"
+          onclick="switchTab('rejected')"
+          class="bg-white px-5 py-2 text-[12px] font-medium rounded-md" id="all-filtere-btn">Rejected</button>
         </div>
 
          <!-- Filtered card -->
